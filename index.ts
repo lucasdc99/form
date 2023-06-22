@@ -1,7 +1,9 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import type {
+  ControllerProps,
   ControllerRenderProps,
   DeepPartial,
+  FieldPath,
   FieldPathByValue,
   FieldPathValue,
   FieldValues,
@@ -9,6 +11,7 @@ import type {
   UseFormReturn,
 } from "react-hook-form";
 import {
+  Controller,
   FormProvider,
   useController,
   useFieldArray,
@@ -18,7 +21,26 @@ import {
   useWatch,
 } from "react-hook-form";
 
-export type { FieldValues, UseFormReturn, DeepPartial, FieldPathValue, FieldPathByValue, ControllerRenderProps };
-export { useController, zodResolver, useFormState, useWatch, useFormContext, useForm, useFieldArray, FormProvider };
+export {
+  Controller,
+  FormProvider,
+  useController,
+  useFieldArray,
+  useForm,
+  useFormContext,
+  useFormState,
+  useWatch,
+  zodResolver,
+};
+export type {
+  ControllerProps,
+  ControllerRenderProps,
+  DeepPartial,
+  FieldPath,
+  FieldPathByValue,
+  FieldPathValue,
+  FieldValues,
+  UseFormReturn,
+};
 
 export type TFieldName<TFieldValues extends FieldValues> = Path<TFieldValues>;
