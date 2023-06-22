@@ -1,3 +1,5 @@
+import { FieldValues, Path } from "react-hook-form";
+
 export {
   Controller,
   FormProvider,
