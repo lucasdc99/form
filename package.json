@@ -12,9 +12,9 @@
   "author": "Lucas De Curtis",
   "license": "ISC",
   "dependencies": {
-    "@hookform/resolvers": "^3.1.1",
+    "@hookform/resolvers": "^3.1.0",
     "@lucactus/zod": "^1.0.0",
-    "react-hook-form": "^7.45.0"
+    "react-hook-form": "^7.44.3"
   },
   "devDependencies": {
     "@lucactus/prettier": "^1.0.0",
