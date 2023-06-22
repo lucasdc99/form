@@ -1,5 +1,6 @@
 import { FieldValues, Path } from "react-hook-form";
 
+export { zodResolver } from "@hookform/resolvers/zod";
 export {
   Controller,
   FormProvider,
