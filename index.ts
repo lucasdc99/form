@@ -1,5 +1,6 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import type {
+  Control,
   ControllerProps,
   ControllerRenderProps,
   DeepPartial,
@@ -33,6 +34,7 @@ export {
   zodResolver,
 };
 export type {
+  Control,
   ControllerProps,
   ControllerRenderProps,
   DeepPartial,
