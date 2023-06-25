@@ -10,6 +10,8 @@ export {
   useFormContext,
   useFormState,
   useWatch,
+  UseControllerProps,
+  UseFormRegister,
 } from "react-hook-form";
 export type {
   Control,
@@ -23,6 +25,7 @@ export type {
   FieldValues,
   Path,
   UseFormReturn,
+  FieldErrors,
 } from "react-hook-form";
 
 export type TFieldName<TFieldValues extends FieldValues> = Path<TFieldValues>;
