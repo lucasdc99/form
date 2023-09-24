@@ -9,8 +9,8 @@ dependencies:
     specifier: 3.3.1
     version: 3.3.1(react-hook-form@7.46.2)
   '@lucactus/zod':
-    specifier: ^1.0.4
-    version: 1.0.4
+    specifier: ^1.0.5
+    version: 1.0.5
   react-hook-form:
     specifier: 7.46.2
     version: 7.46.2(react@18.2.0)
@@ -47,8 +47,8 @@ packages:
     resolution: {integrity: sha512-nWEt44feuX+xSflVeUfYc+UTf9dWFcKHdOCbWHubJ8zIc+qYBTsYdWTWa55Jr4LJdPe4pDHLlju4GhHYSLPyug==}
     dev: false
 
-  /@lucactus/zod@1.0.4:
-    resolution: {integrity: sha512-s4D8d2VFm5xHUocTKiJ19rJn3ps9oN88hubJZzYr4lqF2Ommvg7GnglAqjqbNtr1I/DAhWrbzQqmJVnOUQ8RNA==}
+  /@lucactus/zod@1.0.5:
+    resolution: {integrity: sha512-62rDHK2GGHUuzu14Ta0N9cIajt7MPzg8E7bgltsUaTXrF69tslCDX+mApYWv46i4TfPTcUEWfo+qymNckikF8w==}
     dependencies:
       '@lucactus/variables': 1.0.3
       zod: 3.22.2
